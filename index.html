@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+  <title>House calc</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="types">
+      <select id="type">
+        <option value="Эконом">Эконом</option>
+        <option value="Комфорт">Комфорт</option>
+        <option value="Premium">Premium</option>
+      </select>
+    </div>
+    <div class="param-container">
+      <div class="param-select">
+        <div class="param">
+          <input type="checkbox" id="cher-otdel" class="check">
+          <label for ="cher-otdel">Черновая отделка</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="chist-otdel" class="check">
+          <label for ="chist-otdel">Чистовая отделка</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="plast-win" class="check">
+          <label for ="plast-win">Пластиковые окна</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="alum-win" class="check">
+          <label for ="alum-win">Алюминиевые окна</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="ytep" class="check">
+          <label for ="ytep">Утепление</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="fasad" class="check">
+          <label for ="fasad">Фасад</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="in-com" class="check">
+          <label for ="in-com">Инженерные коммуникации</label>
+        </div>
+        <div class="param">
+          <input type="checkbox" id="foundation" class="check">
+          <label for ="foundation">Фундамент</label for =>
+        </div>
+      </div>
+    </div>
+    <div class="container-result">
+      <input type="text" readonly class="result" class="check">
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
